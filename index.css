@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+:root{
+    --bg:rgba(17, 17, 17, 0.952);
+    --color:white;
+}
+.sec-nav{
+    /* display:none; */
+    height: 0px;
+    z-index: -1; 
+    padding:1rem 2rem;
+    background:var(--bg);
+    color:var(--color);
+    /* transition: all 2s ease-in-out; */
+    
+}
+.box{
+    padding:1rem; 
+    border-radius: 10px;
+    width:300px;
+    border:2px solid var(--bg);
+    cursor: pointer;
+}
+.box:hover{
+    background:rgb(230, 226, 226);
+}
+
+
+.nav{
+    padding:1rem 2rem;
+    background:var(--bg);
+    color:var(--color);
+}
+
+.nav ul{
+    list-style: none;
+}
+.nav ul li{
+    margin: 5px 0.5rem;
+    padding: 5px 0.5rem;
+}
+.home{
+    min-height:75vh;
+    width:60%;
+    gap:1rem;
+
+}
+.btns{
+    width: 50%;
+}
+.home p{
+    font-size: 1.2rem;
+    width: 80%;
+}
+.logo{
+    height: 30px;
+    width: 30px;
+    margin:10px;
+}
+.footer{
+    background-color: var(--bg);
+    color: var(--color);
+    padding: 1rem 2rem;
+    
+}
+.footer ul li{
+    margin: 0.5rem;
+}
+.footer ul li:hover{
+    color: lightgray;
+}
+
+.course{
+    width:50%;
+}
+.course ul{
+    width: 40%;
+
+}
+.hero{
+    padding:2rem;
+}
+.left{
+    width:60%;
+}
+.right{
+    width:40%;
+}
+.left p{
+    padding-bottom:2rem;
+}
+.course ul li{
+    margin:5px 0px;
+    padding:5px 0px;
+    color: red;
+    font-weight: 900;
+    cursor: pointer;
+}
+.course ul li:hover{
+    text-decoration: underline;
+}
+.right img{
+    width: 100%;
+    border-radius: 10%;
+}
+.t-nav hr{
+ width: 25px;   
+ margin: 5px;
+ /* height: 1px; */
+}

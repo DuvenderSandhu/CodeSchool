@@ -1,0 +1,43 @@
+.hero{
+    flex-direction: column;
+}
+.left{
+    width:95%;
+}
+.heading{
+    font-size: 1.2rem;
+}
+h2{
+    font-size: 1rem;
+}
+.btns{
+    width:95%;
+}
+
+.btns button{
+    font-size: 0.7rem;
+}
+.home p{
+    font-size: 0.8rem;
+}
+p{
+    font-size: 0.8rem;
+}
+.home{
+    width:90%;
+}
+.footer{
+    flex-direction: column;
+}
+.right img{
+    max-width:300px;
+}
+.right{
+    width:unset;
+}
+.footer ul{
+    flex-wrap: wrap;
+}
+.box{
+    width:unset;
+}
